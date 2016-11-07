@@ -60,10 +60,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngAnimate', 'ui.rout
         }
     })
   
-    .state('tab.log', {
+    .state('app.log', {
     url: '/log',
     views: {
-      'tab-log': {
+      'menuContent': {
         templateUrl: 'log.html',
         controller: 'LogCtrl'
       }
